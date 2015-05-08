@@ -21,3 +21,4 @@ function key_up() {
 textarea = document.getElementById('mytextarea');
 $editor.setAttribute('onkeyup', 'key_up()');
 $editor.setAttribute('onkeydown', 'key_down()');
+
